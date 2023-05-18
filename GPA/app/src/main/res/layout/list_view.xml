@@ -1,0 +1,73 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:weightSum="100">
+
+	<TextView
+		android:id="@+id/fifththText"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="First"
+		android:layout_weight="20"
+		android:gravity="top|center"
+		android:typeface="monospace"
+		android:textSize="15sp"
+		android:padding="10dp">
+
+	</TextView>
+
+	<TextView
+		android:id="@+id/FirstText"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="Second"
+		android:layout_weight="20"
+		android:gravity="top|center"
+		android:textSize="15sp"
+		android:typeface="monospace"
+		android:padding="10dp">
+
+	</TextView>
+
+	<TextView
+		android:id="@+id/SecondText"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="Third"
+		android:layout_weight="20"
+		android:gravity="top|center"
+		android:typeface="monospace"
+		android:textSize="15sp"
+		android:padding="10dp">
+
+	</TextView>
+
+	<TextView
+		android:id="@+id/ThirdText"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="Fourth"
+		android:layout_weight="20"
+		android:gravity="top|center"
+		android:typeface="monospace"
+		android:textSize="15sp"
+		android:padding="10dp">
+
+	</TextView>
+
+	<TextView
+		android:id="@+id/FourthText"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="Fifth"
+		android:layout_weight="20"
+		android:gravity="top|center"
+		android:typeface="monospace"
+		android:textSize="15sp"
+		android:padding="10dp">
+
+	</TextView>
+
+</LinearLayout>

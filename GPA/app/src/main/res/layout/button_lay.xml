@@ -1,0 +1,233 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		android:id="@+id/layinclude"
+		layout="@layout/toolbar"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="false"
+		android:layout_centerHorizontal="true"
+		android:measureWithLargestChild="true"
+		android:layout_marginTop="350dp">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:lines="2"
+			android:elevation="15dp"
+			android:layout_marginStart="7dp"
+			android:hint="Enter course Mark"
+			android:shadowColor="#0D0C0C"
+			android:typeface="serif"
+			android:inputType="number|numberDecimal"
+			android:id="@+id/EditText1"
+			android:focusable="true"
+			android:gravity="left|right"
+			android:scaleX="1.0"
+			android:textIsSelectable="false"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:lines="2"
+			android:elevation="14dp"
+			android:layout_marginStart="7dp"
+			android:hint="Enter the Credit"
+			android:typeface="serif"
+			android:inputType="number|numberDecimal"
+			android:id="@+id/EditText2"
+			android:gravity="left"
+			android:textAlignment="gravity"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="clear"
+			android:layout_marginStart="318dp"
+			android:layout_marginTop="-48dp"
+			android:padding="10dp"
+			android:textSize="17sp"
+			android:typeface="monospace"
+			android:lines="2"
+			android:id="@+id/btnclear"
+			android:ems="10"/>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="7"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton7"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="8"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton8"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="9"
+				android:layout_weight="1.0"
+				android:typeface="monospace"
+				android:textStyle="bold|normal"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton9"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="4"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton4"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="5"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton5"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="6"
+				android:layout_weight="1.0"
+				android:typeface="monospace"
+				android:textStyle="bold|normal"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton6"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="1"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton1"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="2"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton2"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="3"
+				android:layout_weight="1.0"
+				android:typeface="monospace"
+				android:textStyle="bold|normal"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/buttonlayButton3"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/Button_0"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="submit"
+				android:layout_weight="1.0"
+				android:textStyle="bold|normal"
+				android:typeface="monospace"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/btnsubmit"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="result"
+				android:layout_weight="1.0"
+				android:typeface="monospace"
+				android:textStyle="bold|normal"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:lines="2"
+				android:id="@+id/btnresult"/>
+
+		</TableRow>
+
+	</LinearLayout>
+
+</RelativeLayout>

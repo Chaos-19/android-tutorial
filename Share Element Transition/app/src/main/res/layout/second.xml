@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#37474F">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/example"
+		android:transitionName="example"
+		/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Links To Other Web Sites   Our Service may contain links to third-party web sites or services that   are not owned or controlled by Code Projects.   Code Projects has no control over, and assumes no responsibility for,   the content, privacy policies, or practices of any third party web sites   or services. You further acknowledge and agree that Code Projects   shall not be responsible or liable, directly or indirectly, for any damage   or loss caused or alleged to be caused by or in connection with use of   or reliance on any such content, goods or services available on or   through any such web sites or services.   We strongly advise you to read the terms and conditions and privacy   policies of any third-party web sites or services that you visit.   Governing Law"/>
+
+</LinearLayout>
+

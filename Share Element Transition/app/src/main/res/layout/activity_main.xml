@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:animateLayoutChanges="true"
+	android:layout_height="match_parent">
+
+	<androidx.appcompat.widget.Toolbar
+		android:id="@+id/mainToolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		app:layout_scrollFlags="scroll|enterAlways"
+		app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+	<ImageView
+		android:id="@+id/activity_mainImageView"
+		android:layout_width="189dp"
+		android:layout_height="180dp"
+		android:scaleType="centerCrop"
+		android:transitionName="example"
+		android:src="@drawable/example"
+		android:layout_gravity="center"
+		android:layout_marginTop="110dp"
+		android:layout_marginStart="-330dp"/>
+
+	<Button
+		android:id="@+id/activity_mainButton"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="31dp"
+		android:text="Second Activity"
+		android:background="#5839C0"
+		android:layout_marginTop="291dp"
+		android:layout_gravity="center"
+		android:layout_marginStart="-150dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:animateLayoutChanges="true"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/mainToolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:layout_scrollFlags="scroll|enterAlways"
+			app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<Button
+		android:id="@+id/activity_mainButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/custon_button"
+		android:layout_gravity="center|center_vertical|center_horizontal"
+		android:layout_marginTop="320dp"/>
+
+	<Switch
+		android:id="@+id/activity_mainSwitch"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Enabled"
+		android:checked="true"
+		android:layout_gravity="center_vertical|center_horizontal"/>
+	
+	<ImageView
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:paddingTop="36dp"
+		android:src="@drawable/my_logo"/>
+	
+
+</LinearLayout>
+

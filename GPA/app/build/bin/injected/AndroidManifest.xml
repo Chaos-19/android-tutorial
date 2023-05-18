@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.chaos.Gpacl"
+	android:versionCode="214"
+	android:versionName="2.1.4">
+
+	<uses-sdk
+		android:minSdkVersion="21"
+		android:targetSdkVersion="29"/>
+
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<uses-permission
+		android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+	<application
+		android:name=".AIDEApplication"
+		android:allowBackup="true"
+		android:icon="@drawable/ic_m"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme"
+		android:resizeableActivity="true">
+
+		<activity
+			android:name=".Splash"
+			android:label="@string/app_name">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name=".MainActivity"/>
+
+		<activity
+			android:name=".InputeHandler"/>
+
+		<activity
+			android:name=".Result_Activity"/>
+
+		<activity
+			android:name=".DebugActivity"/>
+
+	</application>
+
+</manifest>
+

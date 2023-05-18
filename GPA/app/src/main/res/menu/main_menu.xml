@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<group
+	android:checkableBehavior="single">
+	
+    <item
+        android:id="@+id/hom"
+		android:icon="@drawable/home"
+        android:title="Home"/>
+	<item
+        android:id="@+id/about"
+		android:icon="@drawable/about"
+        android:title="About"/>
+	<item
+        android:id="@+id/tele"
+		android:icon="@drawable/ic_tele"
+        android:title="Join our chanal"/>
+	
+	</group>
+	<item>
+		<menu>
+			<item
+				android:id="@+id/shar"
+				android:icon="@drawable/ic_share"
+				android:title="Share"/>
+
+			<item
+				android:id="@+id/feedback"
+				android:icon="@drawable/feadback"
+				android:title="FeedBack"/>
+			
+		</menu>
+		
+	</item>
+</menu>
