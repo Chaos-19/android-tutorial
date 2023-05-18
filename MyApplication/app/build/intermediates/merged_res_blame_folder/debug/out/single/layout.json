@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.example.myapplication.app-mergeDebugResources-24:/layout/layout_stack.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.example.myapplication.app-main-27:/layout/layout_stack.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.example.myapplication.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.example.myapplication.app-main-27:/layout/activity_main.xml"
+    }
+]
